@@ -1,0 +1,63 @@
+  body {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url('../img/fondo.jpg');
+      text-align: center;
+  }
+
+  canvas {
+      margin-left: 40px; 
+      border: solid #006400;
+      margin-top: 20px;
+      background-color: white;
+  }
+  
+  section.grande{
+    padding: 0px;
+    margin: 0 auto;
+    width: 960px;
+
+  }
+
+  section#enunciado {
+      margin-top: 20px;
+      width: 230px;
+      height: 400px;
+      border: solid #006400;
+      background-color: white;
+  }
+
+  section#enunciado, canvas {
+      float: left;
+  }
+
+  p>b>a {
+    
+      color: #006400;
+      font-size: 43px;
+      font-family: 'Architects Daughter', cursive;
+  }
+  section.grande>p{
+    text-align: center;
+  }
+
+  h3{
+    
+    color: #006400;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  section>p{
+    width: 95%;
+    margin: 2.5%;
+    text-align: justify;
+    color:#ad2d0d;
+    font-size: 14px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  p.solo {
+      color: #006400;
+      font-size: 23px;
+      font-family: 'Architects Daughter', cursive;
+  }
