@@ -8,3 +8,8 @@ Luego cuando carga la web podemos ver las instrucciones en pantalla.
 ## Tambien puedes probar el juego aqui
 
 https://nickokss.github.io/snake/
+
+## o aqui
+
+[<img src="https://github.com/nickokss/jumper/blob/main/website/src/img/itchio.png" alt="ITCHIO" height="38">](https://nickokss.itch.io/snake)
+
