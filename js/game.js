@@ -181,11 +181,11 @@
         ctx.fillText("PUNTOS: " + puntos, 10, canvas.height - 10);
 
         if (snake.dead()) {
-            ctx.font = "bold 30px architects daughter ";
-            ctx.fillStyle = "#006400";
-            ctx.fillText("Fin del juego (recarga la web)", 100, 140);
-            ctx.fillText("Puntos: " + puntos, 250, 200);
-            console.log("FIN DEL JUEGO");
+            var reloadButton = document.getElementById('reloadButton');
+            reloadButton.style.display = 'block'; // Muestra el botón
+            reloadButton.onclick = function() {
+                window.location.reload(); // Recarga la página cuando el botón es pulsado
+            };
             window.clearInterval(animacion);
         }
     }, 1000 / 15);
